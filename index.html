@@ -1,0 +1,183 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PRC | Safety Service</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+  <style>
+    #nav-mobile {
+      list-style-type: none; /* Remove bullet points */
+    }
+  
+    #nav-mobile li {
+      display: inline; /* Display menu items inline */
+      margin-right: 20px; /* Add space between menu items */
+    }
+  
+    #nav-mobile li a {
+      text-decoration: none; /* Remove underlines from links */
+      color: #333; /* Set link color */
+      font-weight: bold; /* Make the menu item text bold */
+    }
+      /* Style for the brand logo image */
+      .brand-logo img {
+        width: 150px; /* Adjust the width as needed */
+        height: auto; /* This ensures the aspect ratio is maintained */
+        margin-top: 5px; /* Adjust the top margin as needed */
+      }
+
+    .parallax-container {
+      height: 400px;
+    }
+
+      /* Customize the style of the section with class "section red" */
+      .section.red {
+        background-color: #FF0000; /* Change the background color to red */
+        padding: 20px; /* Add padding to the section */
+      }
+    
+      /* Customize the h1 and p elements within the section */
+      .section.red h1{
+        font-family: 'Times New Roman';
+      }
+      .section.red p {
+        color: #FFFFFF;
+        font-size: 20px; 
+        font-family: "serif"; 
+        /* Set text color to white */
+      }
+    
+      /* Customize the button within the section */
+      .section.red button {
+        background-color: #FFFF00; /* Change the button background color to yellow */
+        color: #FF0000; /* Change the button text color to red */
+        border: 2px solid #FF0000; /* Add a red border to the button */
+
+      /* Style for the entire footer */
+       .page-footer {
+        background-color: #333; /* Background color for the footer */
+    color: #fff; /* Text color for the footer */
+    padding: 20px 0; /* Add padding to the top and bottom */
+  }
+
+  /* Style for the footer title */
+  .page-footer h5 {
+    font-size: 24px; 
+    font-weight: 100;
+
+  /* Style for the footer content */
+  .page-footer p {
+    font-size: 16px; /* Font size for the content */
+  }
+
+  /* Style for the copyright notice */
+  .footer {
+    background-color: #FF0000; /* Background color for the copyright section */
+    color: #FFF; /* Text color for the copyright section */
+    padding: 10px 0; /* Add padding to the top and bottom of the copyright section */
+  }
+
+  /* Style for the privacy policy link */
+  .footer a {
+    color: #FFFF00; /* Link color */
+    text-decoration: none; /* Remove underlines from the link */
+    margin-left: 20px; /* Add space between the copyright text and the link */
+  }
+      }
+    
+  </style>
+
+</head>
+
+<body>
+
+  <nav class=" white">
+    <div class="container">
+      <a href="#" class="brand-logo">
+        <img src="./image-removebg-preview (7) (1).png" alt="Your Logo" class="responsive-img">
+      </a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="./trainings.html">TRAININGS</a></li>
+        <li><a href="#con">CONTACT</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="parallax-container">
+    <div class="parallax">
+      <img src="./Untitled design (2) (1).png" alt="owl" class="responsive-img">
+    </div>
+  </div>
+
+  <div class="section red">
+    <div class="container center">
+      <h1 class="white-text">PHILIPPINE RED CROSS</h1>
+      <p class="center white-text">Philippine Red Cross has truly become the premier humanitarian organization in the country, committed to provide quality life-saving services that protect the life and dignity especially of indigent Filipinos in vulnerable situations.</p>
+  
+      <p class="center white-text">The story of the Philippine Red Cross is the story of men and women from all walks of life who have dedicated themselves to the service of humanity. It is the tale of hundreds of thousands of ordinary people who devoted their time and resources to help the poorest of the poor. Professionally trained and truly compassionate, these men and women are ready to lend a helping hand to those in need – whoever, whenever and wherever they may be.</p>
+  
+      <button class="btn yellow">
+        <a href="https://redcross.org.ph/">Visit</a>
+      </button>
+    </div>
+  </div>
+
+  <div class="parallax-container">
+    <div class="parallax">
+      <img src="./Untitled design (4) (1).png" alt="lion" class="responsive-img">
+    </div>
+  </div>
+
+  <div class="section red">
+    <div class="container center">
+      <h1 class="white-text">SAFETY SERVICE</h1>
+      <p class="center white-text">As one of the leading providers of first aid training in the world, the Philippine Red Cross’ Safety Services is tasked with a nationwide educational campaign to ensure the health and safety of the Filipino people. It also offers programs that are aligned with international standards.</p>
+
+      <button class="btn yellow">
+        <a href="https://redcross.org.ph/safety-service/">Visit</a>
+      </button>
+    </div>
+  </div>
+
+  <div class="parallax-container">
+    <div class="parallax">
+      <img src="./Untitled design (5) (1).png" alt="zebra" class="responsive-img">
+    </div>
+  </div>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const parallaxEffect = document.querySelectorAll('.parallax');
+      M.Parallax.init(parallaxEffect, {});
+    })
+  </script>
+</body>
+
+<footer class="page-footer grey darken-3">
+  <div class="container">
+    <div class="row">
+      <div class="col s12">
+        <h5 id="con" class="white-text">PHILIPPINE RED CROSS</h5>
+        <p class="grey-text text-lighten-4">Born officially in 1947, but with roots that traces back to the revolutionary days, the Philippine Red Cross has truly become the premier humanitarian organization in the country, committed to provide quality life-saving services that protect the life and dignity especially of indigent Filipinos in vulnerable situations.
+<br> <br>
+          Address: 37 EDSA corner Boni Avenue, Mandaluyong City 1550
+          <br>
+          Emergency Hotline: 143 <br>
+          Trunkline +63 2 8790 2300</p>
+      </div>
+    </div>
+  </div>
+  <div class="footer red">
+    <div class="container center">
+      &copy; Copyright 2023 Philippine Red Cross
+      
+    </div>
+  </div>
+</footer>
+
+</html>
